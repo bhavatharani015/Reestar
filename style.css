@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar nav {
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.food-container {
+    display: inline-block;
+    padding: 50px 300px;
+
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+
+.card button:hover {
+    background-color: blue;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact form {
+    width: 400px;
+    margin: auto;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    width: 80px;
+    font-size: 14px;
+}
+
+.form-row input {
+    flex: 1;
+    padding: 8px;
+}
+
+/* Button */
+.contact button {
+    width: 120%;
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hover */
+.contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+.form-row input:focus {
+    outline: none;
+    border: 2px solid yellow;
+}
